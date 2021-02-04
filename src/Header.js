@@ -5,8 +5,12 @@ class Header extends Component {
         return (
             <div className="header">
                 <button className="menuBtn"><img className="menuImg" src={menuImg} alt=""/></button>
-                <div className="balance"></div>
-                <div className="bet"></div>
+                <div className="balance">
+                    <span>$9,999,999</span>
+                </div>
+                <div className="bet">
+                    <span>$100,000,000</span>
+                </div>
             </div>
         )
     }

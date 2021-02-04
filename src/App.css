@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   /* The image used */
   background-image: url(./imgs/background.png);
   height: 100vh;
@@ -18,15 +18,14 @@
   /* align-items: center;
   justify-content: center; */
   /* color: white; */
-  width: 400px;
-  max-width: 400px;
-  /* background: white; */
+  width: 350px;
+  max-width: 350px;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
 }
 
-.header{
+.header {
   margin-top: 10px;
   width: 100%;
   display: flex;
@@ -34,31 +33,98 @@
   justify-content: space-around;
 }
 
-.menuBtn{
+.menuBtn {
   border: none;
   /* width: 50px;
   height: 48px; */
   background: none;
 }
 
-.menuImg{
+.menuImg {
   width: 40px;
   height: 38px;
 }
 
-.balance{
+.balance {
   background-image: url(./imgs/balance.png);
   width: 145px;
   height: 24px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: right;
+  color: white;
+  /* display: flex; */
+  /* justify-content: center; */
 }
-.bet{
+.bet {
   background-image: url(./imgs/bet.png);
   width: 145px;
   height: 24px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: right;
+  color: white;
+}
+.balance span,
+.bet span {
+  font-size: 13px;
+  font-weight: bold;
+  padding-right: 5px;
+}
+.jackpot {
+  width: 100%;
+  color: white;
+}
+
+.jackpotImg {
+  background-image: url(./imgs/jackpot.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 220px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jackpotImg span {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.winArea,
+.streakArea {
+  width: 100%;
+}
+
+.winImg {
+  background-image: url(./imgs/win.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 155px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.winImg span{
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.streakArea {
+  background-image: url(./imgs/steak-bonus.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55px;
 }
