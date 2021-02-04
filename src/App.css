@@ -27,7 +27,7 @@
 }
 
 .header{
-  margin: 10px;
+  margin-top: 10px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -42,22 +42,22 @@
 }
 
 .menuImg{
-  width: 45px;
-  height: 42px;
+  width: 40px;
+  height: 38px;
 }
 
 .balance{
   background-image: url(./imgs/balance.png);
-  width: 152px;
-  height: 26px;
+  width: 145px;
+  height: 24px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bet{
   background-image: url(./imgs/bet.png);
-  width: 152px;
-  height: 26px;
+  width: 145px;
+  height: 24px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
