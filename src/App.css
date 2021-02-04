@@ -10,13 +10,55 @@
   background-size: cover;
 }
 
-.App-container {
+.container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  /* align-items: center;
+  justify-content: center; */
+  /* color: white; */
+  width: 400px;
+  max-width: 400px;
+  /* background: white; */
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
 
+.header{
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menuBtn{
+  border: none;
+  /* width: 50px;
+  height: 48px; */
+  background: none;
+}
+
+.menuImg{
+  width: 45px;
+  height: 42px;
+}
+
+.balance{
+  background-image: url(./imgs/balance.png);
+  width: 152px;
+  height: 26px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bet{
+  background-image: url(./imgs/bet.png);
+  width: 152px;
+  height: 26px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
