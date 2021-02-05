@@ -16,9 +16,9 @@ class Footer extends Component {
                     <img src={dice2Img} className="dice2Img" alt=""/>
                 </div>
                 <div className="bottomArea">
-                    <a href=""><img className="guideImg" src={guideImg} alt=""/></a>
+                    <a href="/"><img className="guideImg" src={guideImg} alt=""/></a>
                     <button className="rollBtn"><img className="rollBtnImg" src={rollBtnImg} alt=""/></button>
-                    <a href=""><img className="paytableImg" src={paytableImg} alt=""/></a>
+                    <a href="/"><img className="paytableImg" src={paytableImg} alt=""/></a>
                 </div>
             </div>
         )
