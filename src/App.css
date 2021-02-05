@@ -7,37 +7,41 @@
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
-  min-height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* align-items: center;
-  justify-content: center; */
-  /* color: white; */
+  align-items: center;
+  justify-content: center;
   width: 350px;
-  max-width: 350px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
+  position: relative;
 }
 
+.headerArea {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 .header {
-  margin-top: 10px;
+  margin-top: 20px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  position: relative;
 }
 
 .menuBtn {
   border: none;
-  /* width: 50px;
-  height: 48px; */
   background: none;
+  outline: none;
 }
 
 .menuImg {
@@ -89,6 +93,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .jackpotImg span {
@@ -130,11 +135,11 @@
 }
 
 .gameboardArea {
+  position: absolute;
   background-image: url(./imgs/gameboard.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 350px;
 }
 .gameboard {
   list-style-type: none;
@@ -196,15 +201,78 @@
   align-items: center;
 }
 
-.whiteNumber{
+.whiteNumber {
   font-size: 30px;
   font-weight: bold;
   text-shadow: 1px 1px #aaaaaa;
   color: white;
 }
-.blackNumber{
+.blackNumber {
   font-size: 30px;
   font-weight: bold;
   text-shadow: 1px 1px #eeeeee;
   color: black;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 40px;
+}
+.anySeven {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anySevenImg {
+  background-image: url(./imgs/anyseven.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 220px;
+  height: 35px;
+}
+
+.diceArea{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* align-content: space-between; */
+}
+.dice1Img, .dice2Img{
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+}
+
+.bottomArea{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.guideImg{
+  width: 38px;
+  height: 50px;
+}
+
+.paytableImg{
+  width: 65px;
+  height: 50px;
+}
+
+.rollBtn{
+  border: none;
+  outline: none;
+  background: none;
+  margin-left: 20px;
+}
+.rollBtnImg{
+  width: 190px;
+  height: 80px;
+  margin: 10px;
 }
