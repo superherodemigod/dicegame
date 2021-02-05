@@ -147,7 +147,31 @@
   margin: 10px 5px;
 }
 
-.tile {
+.whiteTile {
+  margin: 2px;
+  background-image: url(./imgs/white-tile.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yellowTile {
+  margin: 2px;
+  background-image: url(./imgs/yellow-tile.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.greenTile {
   margin: 2px;
   background-image: url(./imgs/green-tile.png);
   background-position: center;
@@ -159,10 +183,28 @@
   justify-content: center;
   align-items: center;
 }
+.blueTile {
+  margin: 2px;
+  background-image: url(./imgs/blue-tile.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.tileNumber{
+.whiteNumber{
   font-size: 30px;
   font-weight: bold;
   text-shadow: 1px 1px #aaaaaa;
   color: white;
+}
+.blackNumber{
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 1px 1px #eeeeee;
+  color: black;
 }
