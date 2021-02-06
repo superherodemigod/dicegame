@@ -38,11 +38,6 @@ class Footer extends Component {
       img_path2: item2.ItemImg,
       alt2: item2.ItemName,
     });
-
-    // const dice1 = Math.floor(Math.random() * 6);
-    // const dice2 = Math.floor(Math.random() * 6);
-    // this.dice1Number = dice1;
-    // console.log("Roll changed!");
   }
   render() {
     return (
