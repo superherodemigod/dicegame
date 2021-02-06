@@ -243,7 +243,7 @@
   align-items: center;
   /* align-content: space-between; */
 }
-.dice1Img, .dice2Img{
+.diceImg{
   width: 60px;
   height: 60px;
   margin: 10px;
