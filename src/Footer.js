@@ -16,7 +16,7 @@ class Footer extends Component {
       img_path1: dice5Img,
       alt1: "dice5",
       img_path2: dice2Img,
-      alt2: "dice3",
+      alt2: "dice2",
     };
   }
 
